@@ -1,0 +1,34 @@
+{
+  "name": "torvalds/yii2-bootstrap-hover-dropdown",
+  "description": "Yii2 bootstrap-hover-dropdown",
+  "keywords": [
+    "bootstrap",
+    "hover",
+    "dropdown"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD",
+  "support": {
+    "source": "https://github.com/torvaldz/yii2-bootstrap-hover-dropdown"
+  },
+  "authors": [
+    {
+      "name": "Marco Migozzi",
+      "email": "torvaldz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "torvalds\\hoverdropdown\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "bower-asset/bootstrap-hover-dropdown": "*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
